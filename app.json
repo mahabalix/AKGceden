@@ -1,8 +1,8 @@
 {
-  "name": "Caden Music",
+  "name": "AKG-ANTHESM Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Krishnacodr/DevilHackerMusic2",
+  "repository": "https://github.com/mahabalix/AKGceden",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -17,7 +17,7 @@
     "BOT_USERNAME": {
       "description": "Put Bot Username Without '@' Ex:- DevilTrishaRoBot",
       "required": true,
-      "value": "DevilTrishaRoBot"
+      "value": "AKGANTHESMBOT"
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
