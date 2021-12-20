@@ -25,12 +25,8 @@
 
 # ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
 
-[Repl Link](https://replit.com/@AdityaHalder/PyrogramStringSession) to get pyrogram string session
 
-
-  ### Deploy To Heroku
-
-[![Deploy](https://replit.com/@BoooCreative/Session-Generater#main.py)]
+[[GENRATE STRING](https://replit.com/@BoooCreative/Session-Generater#main.py)]
 ### Deploy To Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mahabalix/AKGceden)
