@@ -150,7 +150,7 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>💥 Ʌssɩstɑnt 😔 Fɑɩɭɘɗ ⚠️ Ƭø 📵\n🥺 Jøɩɳ ✌️ Ƭɦɩs 💞 Ƈɦɑʈ 🌷..."
+                        f"<b>assistent failed to join..."
                     )
     try:
         await USER.get_chat(chid)
@@ -171,7 +171,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**take less time to play {DURATION_LIMIT}...**"
             )
 
         file_name = get_file_name(audio)
@@ -185,7 +185,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text= JOIN GROUP",
+                            text="JOIN GROUP",
                             url=f"https://t.me/akganthesm_chat_box")
 
                 ]
