@@ -34,14 +34,12 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e770c634d5926d9d6319f.jpg",
+        photo=f"https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
-𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ... 𝐃𝐞𝐩𝐥𝐨𝐲 𝐛𝐲 [𝐂𝐀𝐃𝐄𝐍](https://t.me/Caden_OP
+BOT FAST LIKE FAST AS FUCK](https://t.me/AKG_ANTHESM)
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝐂𝐀𝐃𝐄𝐍](https://t.me/Caden_OP)
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝐒𝐀𝐍𝐊𝐈 𝐅𝐈𝐆𝐇𝐓𝐄𝐑](https://t.me/sankiwarrior)
-┣★ 𝙎𝙤𝙪𝙧𝙘𝙚 : [𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲](https://t.me/sankiwarrior)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [AKG_ANTHESM](https://t.me/Caden_OP)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [bakchodi point](https://anthesm_chat_box)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -49,7 +47,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "😆 ❰ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥 ❱ 😆", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                       " ❰ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥 ❱", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -60,29 +58,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "legend"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e770c634d5926d9d6319f.jpg",
+        photo=f"https://telegra.ph/file/3809ee0cf6a7567e86a5c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝙅𝙤𝙞𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 💞", url=f"https://t.me/sankiwarrior")
-                ]
-            ]
-        ),
-    )
-
-
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "😆 𝘾𝙡𝙞𝙘𝙠 𝙃𝙚𝙧𝙚 𝙏𝙤 𝙂𝙚𝙩 𝙍𝙚𝙥𝙤 😆", url=f"https://t.me/sankiwarrior")
+                        "JOIN FOR BAKCHODI", url=f"https://t.me/anthesm_chat_box")
                 ]
             ]
         ),
